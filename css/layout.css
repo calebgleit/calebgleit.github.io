@@ -1,11 +1,66 @@
 
 .container {
 	margin-top: 1em;
-	margin-right: auto;
 	margin-bottom: 1em;
-	margin-left: auto;
 	width: 90%;
 	max-width: 800px;
 	padding: 2em;
 }
+
+.header {
+	height: 25px;
+	min-width: 20%;
+	margin-left: 4em;
+	margin-top: 2em;
+}
+
+.workdiv {
+	min-width: 700px;
+	max-width: 700px;
+	margin-left: 4em;
+	margin-top: 2em;
+}
+
+.worktilediv {
+	min-height: 300px;
+	max-height: 300px;
+	min-width: 300px;
+	max-width: 300px;
+	margin-bottom: 2em;
+	margin-right: 4px;
+	margin-left: 4px;
+	background-color: black;
+	padding-bottom: 2em;
+	float: left;
+}
+
+.photoessay {
+	min-height: 400px;
+	max-height: 400px;
+	min-width: 600px;
+	max-width: 600px;
+	margin-bottom: 2em;
+	margin-right: 4px;
+	margin-left: 4px;
+	background-color: black;
+	padding-bottom: 2em;
+	float: left;
+}
+
+.photoessayimg {
+	max-width:100%;
+	max-height:100%;
+}
+
+
+.boxes {
+	margin-right: 2px;
+	margin-left: 2px;
+
+}
+
+
+
+
+
 
