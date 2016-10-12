@@ -5,3 +5,9 @@ body {
 	line-height: 1.5em;
 	color: #222;
 }
+
+h1 {
+	font-family: Helvetica,serif;
+	font: 20px;
+	color: black;
+}
