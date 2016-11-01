@@ -1,37 +1,78 @@
 
-.container {
-	margin-top: 1em;
-	margin-bottom: 1em;
-	width: 90%;
-	max-width: 800px;
-	padding: 2em;
-}
+/* Header */ 
 
 .header {
+
 	height: 25px;
-	min-width: 20%;
-	margin-left: 4em;
-	margin-top: 2em;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
+
+/**/ 
+
+/* Main Container */ 
+
+.container {
+	margin-bottom: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 800px;
+	max-width: 800px;
+	max-height: 2000px;
+
+}
+
+/**/ 
+
+/* Main Page Two Column Layout */ 
+
+.row1 {
+	min-width: 350px;
+	max-width: 350px;
+	margin-bottom: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	float: left;
+}
+
+.row2 {
+	min-width: 350px;
+	max-width: 350px;
+	margin-bottom: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1em;
+	padding-right: 1em;
+	float: left;
+}
+
+/**/ 
+
+/* Work Page Layout */
 
 .workdiv {
-	min-width: 700px;
-	max-width: 700px;
-	margin-left: 4em;
-	margin-top: 2em;
+	width: 78%;
+	max-height: 2000px;
+	margin-right: auto;
+	margin-left: auto;
+	
 }
 
-.worktilediv {
-	min-height: 300px;
-	max-height: 300px;
-	min-width: 300px;
-	max-width: 300px;
+.worktile {
+	min-height: 100px;
+	max-height: 100px;
+	min-width: 100px;
+	max-width: 100px;
 	margin-bottom: 2em;
 	margin-right: 4px;
 	margin-left: 4px;
 	background-color: black;
-	padding-bottom: 2em;
 	float: left;
+	
 }
 
 .photoessay {
@@ -40,25 +81,28 @@
 	min-width: 600px;
 	max-width: 600px;
 	margin-bottom: 2em;
-	margin-right: 4px;
-	margin-left: 4px;
+	margin-right: auto;
+	margin-left: auto;
 	background-color: black;
-	padding-bottom: 2em;
-	float: left;
 }
 
-.photoessayimg {
-	max-width:100%;
-	max-height:100%;
-}
+/**/ 
 
+/* Work Page Template */ 
 
-.boxes {
-	margin-right: 2px;
-	margin-left: 2px;
+.article {
 
 }
 
+.align {
+	text-align: center;
+}
+
+/* s 
+
+* {
+   background: rgba(200, 54, 54, 0.5); 
+}
 
 
 

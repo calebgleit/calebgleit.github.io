@@ -1,15 +1,29 @@
 
 body {
-	font-family: Georgia, "Times New Roman",Times,serif;
-	font-size: 16px;
+	font-family: "Helvetica Neue", "Times New Roman",Times,serif;
+	font-size: 12px;
 	line-height: 1.5em;
 	color: #222;
 }
 
+p {
+	font-style: oblique;
+	font-variant: normal;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+
 h1 {	
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Helvetica', cursive;
 	font-size: 30px;
 	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 1em;
+}
+
+h1 a {	
+	color: #192E85;
 }
 
 h2 {
@@ -18,36 +32,70 @@ h2 {
 	color: white;
 	margin-left: 10px;
 	margin-top: 10px;
-	position: absolute;
+	
 }
 
-/* font-family: 'Fredoka One', cursive;
+h3 {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 24px;
+	margin-bottom: 4px;
+}
+
+/* Back */ 
+
+h4 {
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-style: oblique;
+	font-variant: normal;
+	text-decoration: none;
+}
+
+h4 a {
+	text-decoration: none;
+}
+
+h4 a:visited {
+	text-decoration: none;
+	color: black;
+}
 
 
-font-family: 'Baloo Da', cursive; */
+/* Back */ 
 
-ul {
+/* Header Code */ 
+
+.header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: white;
-    font-family: 'Fredoka One', cursive;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-style: oblique;
+	font-variant: normal;
 }
 
-li {
+.header li {
  	float: left;
 }
 
-li a {
+.header li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 7px 8px 5px 5px;
+    padding: 0px 4px 0px 5px;
     text-decoration: none;
+    opacity: 70%;
 }
 
-li a:hover {
-    background-color: #111;
-    color: white;
+.header li a:hover {
+    color: gray;
 }
+
+/* End of Header Code */
