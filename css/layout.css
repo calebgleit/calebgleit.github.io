@@ -5,7 +5,7 @@
 
 	height: 25px;
 	width: auto;
-	margin-left: auto;
+	margin-left: 10px;
 	margin-right: auto;
 	
 }
@@ -104,7 +104,43 @@
    background: rgba(200, 54, 54, 0.5); 
 }
 
+/* Conference Page */ 
 
+.con {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid black; 
+	padding: 1em;
+	margin-bottom: 6em;
+}
+
+.con p {
+
+	font-variant: normal;
+	text-decoration: none;
+	line-height: 1.5em;
+
+}
+
+.con-caption {
+
+	font-size: 10px;
+
+}
+
+/* */
+
+.textworkdiv {
+
+	width: 80%;
+	height: 300px;
+	margin-left: 20px;
+}
+
+.textworkdiv a {
+	text-decoration: none;
+}
 
 
 
