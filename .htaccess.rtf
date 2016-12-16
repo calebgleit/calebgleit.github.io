@@ -1,14 +1,20 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf600
-{\fonttbl\f0\fmodern\fcharset0 CourierNewPSMT;\f1\fmodern\fcharset0 Courier;}
-{\colortbl;\red255\green255\blue255;\red38\green38\blue38;\red251\green251\blue251;}
-{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c20000\c20000\c20000;\cssrgb\c98824\c98824\c98824;}
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red37\green127\blue159;\red235\green236\blue237;\red36\green38\blue41;
+\red43\green39\blue19;\red104\green26\blue29;}
+{\*\expandedcolortbl;\csgray\c100000;\cssrgb\c16863\c56863\c68627;\cssrgb\c93725\c94118\c94510;\cssrgb\c18824\c20000\c21176;
+\cssrgb\c22353\c20000\c9412;\cssrgb\c49020\c15294\c15294;}
 \margl1440\margr1440\vieww10800\viewh8400\viewkind0
 \deftab720
-\pard\pardeftab720\sl312\partightenfactor0
+\pard\pardeftab720\sl300\partightenfactor0
 
-\f0\fs31\fsmilli15600 \cf2 \cb3 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec2 RewriteEngine On\
-RewriteCond %\{REQUEST_FILENAME\} !-f\
-RewriteRule ^([^\\.]+)$ $1.html [NC,L]
-\f1\fs48 \
+\f0\fs26 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 RewriteCond\cf4 \strokec4  %\{REQUEST_FILENAME\} !-f\
+\cf2 \strokec2 RewriteCond\cf4 \strokec4  %\{REQUEST_FILENAME\} !-d\
+\cf2 \strokec2 RewriteCond\cf4 \strokec4  %\{REQUEST_FILENAME\}.html -f\
+\cf2 \strokec2 RewriteRule\cf4 \strokec4  ^(.+)$ $1.html [L,QSA]\cf5 \strokec5 \
+\
+\pard\pardeftab720\sl300\partightenfactor0
+\cf2 \strokec2 RewriteCond\cf4 \strokec4  %\{THE_REQUEST\} ^[A-Z]\{\cf6 \strokec6 3\cf4 \strokec4 ,\cf6 \strokec6 9\cf4 \strokec4 \}\\ /.*\\.html\\ HTTP/\
+\cf2 \strokec2 RewriteRule\cf4 \strokec4  ^(.*)\\.html$ /$1 [R=\cf6 \strokec6 301\cf4 \strokec4 ,L]\cf5 \strokec5 \
 }
