@@ -1,0 +1,166 @@
+
+
+/*	Development/layout aid. Remove the comments
+	on this rule in order to draw boxes around DIVs
+	and other elements used for layout. */
+
+/*
+div, main, article, section, aside, 
+hgroup, header, footer, address, nav {
+	border: 1px solid rgba(255,0,0,0.15) !important;
+	background: rgba(255,0,0,0.05) !important;		
+}
+*/
+
+
+
+/*	Generally, you will only want one container element in
+	the document, wrapping around the main content area. */
+
+{
+	background-color: rgba(255,0,0,0.25);
+}
+
+.header {
+	margin-top: 0em;
+	margin-right: auto;
+	margin-bottom: 0em;
+	margin-left: auto;
+	width: 90%;
+	height: 100px;
+	max-height: 50px;
+	min-width: 1000px;
+	max-width: 1000px;
+	padding: 1em;
+	
+}
+
+.header h1 {
+	text-align: left;
+	vertical-align: middle;
+	
+}
+
+.s-header {
+	margin-right: auto;
+	margin-bottom: 0em;
+	margin-left: auto;
+	width: 90%;
+	height: 100px;
+	max-height: 20px;
+	min-width: 1000px;
+	max-width: 1000px;
+	padding-top: .6em;
+	padding-left: 1.08em;
+	
+}
+
+.s-header h1 {
+	text-align: left;
+	vertical-align: middle;
+	font-size: 12px;
+	
+}
+
+.container {
+	margin-top: 0em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	width: 90%;
+	height: 800px;
+	max-height: 1000px;
+	min-width: 1000px;
+	max-width: 1000px;
+	padding: 1em;
+	
+}
+
+.divider {
+	margin-top: 1em;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-left: auto;
+	min-width: 47.38%;
+	max-width: 47.38%;
+	float: left;
+	height: 400px;
+	
+	background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+	
+}
+
+.bg2 {
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.divider h1 {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 400px; 
+	color: white;
+	margin-top: 0em;
+}
+
+.long-divider {
+	margin-top: 1em;
+	margin-right: auto;
+	margin-bottom: 1em;
+	margin-left: auto;
+	height: 150px;
+	min-width: 96.48%;
+	max-width: 1000px;
+	padding: 1em;
+	background-color: rgba(255,0,0,0.5);
+	float: left;
+	
+}
+
+.long-divider h1 {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px; 
+	color: white;
+}
+
+.smaller {
+	font-size: 20px;
+}
+
+.small-divider {
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-left: auto;
+	margin-bottom: 3em;
+	width: 100px;
+	height: 100px;
+	padding: 1em;
+	float: left;
+	background-image: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 100%);
+	
+}
+
+.small-divider img {
+	display: block;
+	margin:auto;
+	margin-top: 0.4em;
+}
+
+#smallbox {
+	cursor: pointer;
+}
+
+.cont {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.02); }
+
+.grow-s { transition: all .2s ease-in-out; }
+.grow-s:hover { transform: scale(1.02); }
+
+
+
+
