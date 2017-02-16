@@ -45,13 +45,15 @@ hgroup, header, footer, address, nav {
 	margin-right: auto;
 	margin-bottom: 0em;
 	margin-left: auto;
-	width: 90%;
+	width: 80%;
 	height: 100px;
 	max-height: 20px;
 	min-width: 1000px;
 	max-width: 1000px;
-	padding-top: .6em;
-	padding-left: 1.08em;
+	padding: 1em;
+	padding-top: 0.21em;
+
+	
 	
 }
 
@@ -60,6 +62,31 @@ hgroup, header, footer, address, nav {
 	vertical-align: middle;
 	font-size: 12px;
 	
+}
+
+#navlist li
+{
+	display: inline;
+	list-style-type: none;
+	margin-left: -3.1em;
+	padding-right: 50px;
+	font-size: 12px;
+	color: black;
+}
+
+#navlist a {
+	text-decoration: none;
+	color: black;
+}
+
+#navlist a:hover {
+	text-decoration: none;
+	color: gray;
+}
+
+#navlist a:visited {
+	text-decoration: none;
+	color: #a3bfed;
 }
 
 .container {
@@ -128,22 +155,25 @@ hgroup, header, footer, address, nav {
 }
 
 .small-divider {
-	margin-right: 1em;
-	margin-left: 1em;
+	margin-right: .5em;
+	margin-left: .5em;
 	margin-left: auto;
-	margin-bottom: 3em;
-	width: 100px;
-	height: 100px;
+	margin-bottom: 2.5em;
+	margin-top: 0.3em;
+	width: 60px;
+	height: 60px;
 	padding: 1em;
 	float: left;
-	background-image: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 100%);
+	background-image: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 0%);  
+	
+	border-radius: 200px;
 	
 }
 
 .small-divider img {
 	display: block;
 	margin:auto;
-	margin-top: 0.4em;
+	margin-top: 0.1em;
 }
 
 #smallbox {
@@ -151,15 +181,35 @@ hgroup, header, footer, address, nav {
 }
 
 .cont {
-	width: 50%;
+	width: 31%;
 	margin: 0 auto;
+}
+
+.blogbox {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-right: auto;
+	margin-left: -20.85em;
+	background-image: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 0%);  
+	
+}
+
+.blogbox h1 {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 70px; 
+	margin-right: 0.1em;
+
 }
 
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.02); }
 
 .grow-s { transition: all .2s ease-in-out; }
-.grow-s:hover { transform: scale(1.02); }
+.grow-s:hover { transform: scale(1.05); }
 
 
 
