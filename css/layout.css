@@ -203,6 +203,24 @@ hgroup, header, footer, address, nav {
 
 }
 
+.boxy-box {
+color: black;
+height: 1000px;
+width: 1000px;
+float: left;
+margin-right: auto;
+margin-left: -20.85em;
+
+}
+
+.boxy-box h1 {
+	color: rgb(18, 185, 241);
+}
+
+.boxy-box h2 {
+	color: rgb(37, 161, 202)
+}
+
 /* .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.02); }
 
