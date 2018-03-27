@@ -52,9 +52,6 @@ hgroup, header, footer, address, nav {
 	max-width: 1000px;
 	padding: 1em;
 	padding-top: 0.21em;
-
-	
-	
 }
 
 .s-header h1 {
@@ -147,7 +144,7 @@ hgroup, header, footer, address, nav {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 30px; 
-	color: white;
+	color: black;
 }
 
 .smaller {
@@ -165,7 +162,6 @@ hgroup, header, footer, address, nav {
 	padding: 1em;
 	float: left;
 	/* background-image: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 0%); */  
-	
 	border-radius: 200px;
 	
 }
@@ -196,7 +192,7 @@ hgroup, header, footer, address, nav {
 }
 
 .blogbox h1 {
-	color: white;
+	color: black;
 	font-size: 20px;
 	text-align: center;
 	vertical-align: middle;
