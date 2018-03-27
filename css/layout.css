@@ -122,7 +122,7 @@ hgroup, header, footer, address, nav {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 400px; 
-	color: white;
+	color: black;
 	margin-top: 0em;
 }
 
@@ -137,6 +137,7 @@ hgroup, header, footer, address, nav {
 	padding: 1em;
 	background-color: rgba(255,0,0,1);
 	float: left;
+	color: black;
 	
 }
 
